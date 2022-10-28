@@ -9,11 +9,11 @@
 
 ### Instalación
 Se necesita:
- * [Python 3](https://www.python.org/downloads/) o una version mayor en el equipo. Se puede descargar directamente de su web.
+ * [Python 3](https://www.python.org/downloads/) o una version mayor en el equipo. Se puede descargar directamente de su web. En la instalación aceptar checkbox añadir en el PATH y en el final de la instalación darle a la opción del PATH variable lenght.
  * [GeckoDriver](https://github.com/mozilla/geckodriver/), se puede descargar desde [su Github](https://github.com/mozilla/geckodriver/releases). Hace falta descargar la versión para el sistema operativo en uso y poner el driver en el PATH del sistema ([por ejemplo](https://stackoverflow.com/questions/42524114/how-to-install-geckodriver-on-a-windows-system)).
  * Selenium, para descargarlo hay que ejecutar el siguiente comando en la terminal:
 
-        python -m pip install selenium
+        pip install -U selenium
  
  * Tener los permisos para poder ejecutar el programa desde una terminal.
 
